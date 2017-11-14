@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/x4">
+
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:text="test"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:scrollHorizontally="false"
+        android:textColor="@android:color/black"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:background="@drawable/circluar_background"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:id="@+id/decrementImageButton"
+            android:src="@drawable/ic_remove_circle_outline_black_36dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/numericStepperTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/x8"
+            android:text="1" />
+
+        <ImageButton
+            android:id="@+id/incrementImageButton"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_add_circle_outline_black_36dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

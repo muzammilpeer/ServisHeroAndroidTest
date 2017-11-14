@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.v4.widget.NestedScrollView-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:fillViewport="false">-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_margin="@dimen/x4"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/popupIconImageView"
+        android:src="@drawable/icon_cleaning"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/x4"
+        android:layout_width="@dimen/x30"
+        android:layout_height="@dimen/x30" />
+
+    <TextView
+        android:id="@+id/popupContentTextView"
+        android:layout_margin="@dimen/x4"
+        android:text="sdfjasl;dfkas; dfks;ad fka;sdkf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/dismissButton"
+        android:background="@drawable/blue_round_background"
+        android:layout_margin="@dimen/x4"
+        android:text="DISMISS"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x50"/>
+</LinearLayout>
+
+<!--</android.support.v4.widget.NestedScrollView>-->

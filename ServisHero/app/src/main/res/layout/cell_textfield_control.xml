@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="@dimen/x8"
+    android:layout_marginBottom="@dimen/x8"
+    android:layout_marginStart="@dimen/x4"
+    android:layout_marginEnd="@dimen/x4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/x4"
+ >
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/x4"
+        android:text="Additional Details"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:lines="1"
+        android:scrollHorizontally="false"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/x6" />
+
+    <TextView
+        android:id="@+id/subTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/x4"
+        android:text="safdljasdlf jsaldf aasdfasdfasdfasdfasdfasdfasdfsadfsafasdsafsadfsafasdflskdfj lasdj flksajd flsajd flkasj dflkjas ldfkjaskldflkas djflasd jflkasjd fl"
+        android:maxLines="2"
+        android:gravity="center_vertical"
+        android:scrollHorizontally="false"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/x5" />
+
+
+    <RelativeLayout
+        android:background="@color/colorEditTextBackground"
+        android:padding="@dimen/x4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_mode_edit_black_24dp" />
+
+        <EditText
+            android:id="@+id/commentsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write here..."
+            android:background="@android:color/transparent"
+            android:gravity="left|top"
+            android:minLines="4"
+            android:maxLines="10"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLength="2000"
+            android:textSize="@dimen/x6"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

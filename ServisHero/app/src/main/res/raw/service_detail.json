@@ -1,0 +1,315 @@
+{
+    "searchTerms": "clean,house,maid,cleaner,dirty,tidy,housekeeper",
+    "description": "Pick the time and place best suited for you, and one of our top-rated professionals will get the job done!",
+    "active": true,
+    "imageUrl": "https://assets.servishero.io/web/img/cleaning.jpg",
+    "bodyText": "Instantly find trusted residential cleaners in KL \nClean your bedrooms, bathrooms, living room, kitchen and balcony\nServices include sweeping, mopping, dusting, general tidying up and vacuuming\nCleaning supplies and tools provided by cleaner ",
+    "name": "Home Cleaning",
+    "iconUrl": "https://assets.servishero.io/app/direct-icons/cleaning_2.png",
+    "serviceType": 1,
+    "questionSubsets": {
+        "1": [
+            {
+                "responses": [
+                    {
+                        "id": 1,
+                        "active": true,
+                        "responseText": "Landed",
+                        "responseValue": "Landed",
+                        "responseOrder": 1,
+                        "imageUrl": "",
+                        "question": 1
+                    },
+                    {
+                        "id": 2,
+                        "active": true,
+                        "responseText": "High Rise",
+                        "responseValue": "High Rise",
+                        "responseOrder": 2,
+                        "imageUrl": "",
+                        "question": 1
+                    }
+                ],
+                "service": 400000,
+                "questionType": {
+                    "id": 1,
+                    "type": "single choice"
+                },
+                "id": 1,
+                "active": true,
+                "questionText": "What type of property do you have?",
+                "questionSubText": "",
+                "questionSubsetId": 1,
+                "questionOrder": 1,
+                "salesItemTypeId": null,
+                "numOfServiceUnit": null,
+                "serviceAttributeId": null,
+                "isTooltip": false,
+                "isOptional": false,
+                "tooltipText": "",
+                "tooltipImageUrl": "",
+                "durationPerUnit": null
+            },
+            {
+                "responses": [
+                    {
+                        "id": 3,
+                        "active": true,
+                        "responseText": "Yes",
+                        "responseValue": "Yes",
+                        "responseOrder": 1,
+                        "imageUrl": "",
+                        "question": 2
+                    },
+                    {
+                        "id": 4,
+                        "active": true,
+                        "responseText": "No",
+                        "responseValue": "No",
+                        "responseOrder": 2,
+                        "imageUrl": "",
+                        "question": 2
+                    }
+                ],
+                "service": 400000,
+                "questionType": {
+                    "id": 1,
+                    "type": "single choice"
+                },
+                "id": 2,
+                "active": true,
+                "questionText": "Do you need us to provide cleaning supplies?",
+                "questionSubText": "",
+                "questionSubsetId": 1,
+                "questionOrder": 2,
+                "salesItemTypeId": 2,
+                "numOfServiceUnit": null,
+                "serviceAttributeId": 2,
+                "isTooltip": true,
+                "isOptional": false,
+                "tooltipText": "[Our heroes typically provide:]\nMop\nBroom\nVacuum cleaner\nMultipurpose chemicals and detergents\nSponge and brush\nWiping cloth\nDuster\nPail\n[If you are providing cleaning supplies, refer to the above list for suggested items]",
+                "tooltipImageUrl": "https://assets.servishero.io/app/direct-icons/cleaning_supplies.png",
+                "durationPerUnit": null
+            },
+            {
+                "responses": [
+                    {
+                        "id": 5,
+                        "active": true,
+                        "responseText": "1",
+                        "responseValue": "1",
+                        "responseOrder": 1,
+                        "imageUrl": "",
+                        "question": 3
+                    },
+                    {
+                        "id": 6,
+                        "active": true,
+                        "responseText": "2",
+                        "responseValue": "2",
+                        "responseOrder": 2,
+                        "imageUrl": "",
+                        "question": 3
+                    },
+                    {
+                        "id": 7,
+                        "active": true,
+                        "responseText": "3",
+                        "responseValue": "3",
+                        "responseOrder": 3,
+                        "imageUrl": "",
+                        "question": 3
+                    },
+                    {
+                        "id": 8,
+                        "active": true,
+                        "responseText": "4",
+                        "responseValue": "4",
+                        "responseOrder": 4,
+                        "imageUrl": "",
+                        "question": 3
+                    },
+                    {
+                        "id": 9,
+                        "active": true,
+                        "responseText": "5",
+                        "responseValue": "5",
+                        "responseOrder": 5,
+                        "imageUrl": "",
+                        "question": 3
+                    },
+                    {
+                        "id": 10,
+                        "active": true,
+                        "responseText": "6",
+                        "responseValue": "6",
+                        "responseOrder": 6,
+                        "imageUrl": "",
+                        "question": 3
+                    },
+                    {
+                        "id": 11,
+                        "active": true,
+                        "responseText": "7",
+                        "responseValue": "7",
+                        "responseOrder": 7,
+                        "imageUrl": "",
+                        "question": 3
+                    },
+                    {
+                        "id": 12,
+                        "active": true,
+                        "responseText": "8",
+                        "responseValue": "8",
+                        "responseOrder": 8,
+                        "imageUrl": "",
+                        "question": 3
+                    },
+                    {
+                        "id": 13,
+                        "active": true,
+                        "responseText": "9",
+                        "responseValue": "9",
+                        "responseOrder": 9,
+                        "imageUrl": "",
+                        "question": 3
+                    }
+                ],
+                "service": 400000,
+                "questionType": {
+                    "id": 4,
+                    "type": "number increment button"
+                },
+                "id": 3,
+                "active": true,
+                "questionText": "Number of rooms",
+                "questionSubText": "",
+                "questionSubsetId": 1,
+                "questionOrder": 3,
+                "salesItemTypeId": 1,
+                "numOfServiceUnit": 1,
+                "serviceAttributeId": 1,
+                "isTooltip": false,
+                "isOptional": false,
+                "tooltipText": "",
+                "tooltipImageUrl": "",
+                "durationPerUnit": 1
+            }
+        ],
+        "3": [
+            {
+                "responses": [
+                    {
+                        "id": 14,
+                        "active": true,
+                        "responseText": "[These are the primary services that are included:]\nCleaning of all bedrooms requested\nCleaning of all bathroom and toilets requested\nCleaning of kitchens requested\nCleaning of living room and balcony (if applicable) \nCleaning includes sweeping, mopping, dusting, general tidying and vacuuming\nNot valid for moving in/out cleaning or post-renovation cleaning",
+                        "responseValue": "[These are the primary services that are included:]\nCleaning of all bedrooms requested\nCleaning of all bathroom and toilets requested\nCleaning of kitchens requested\nCleaning of living room and balcony (if applicable) \nCleaning includes sweeping, mopping, dusting, general tidying and vacuuming\nNot valid for moving in/out cleaning or post-renovation cleaning",
+                        "responseOrder": 1,
+                        "imageUrl": "https://assets.servishero.io/app/direct-icons/cleaning_supplies.png",
+                        "question": 4
+                    }
+                ],
+                "service": 400000,
+                "questionType": {
+                    "id": 7,
+                    "type": "pop up view inclusions"
+                },
+                "id": 4,
+                "active": true,
+                "questionText": "See what's included in your cleaning session",
+                "questionSubText": "",
+                "questionSubsetId": 3,
+                "questionOrder": 1,
+                "salesItemTypeId": null,
+                "numOfServiceUnit": null,
+                "serviceAttributeId": null,
+                "isTooltip": false,
+                "isOptional": true,
+                "tooltipText": "",
+                "tooltipImageUrl": "",
+                "durationPerUnit": null
+            },
+            {
+                "responses": [
+                    {
+                        "id": 15,
+                        "active": true,
+                        "responseText": "Ironing",
+                        "responseValue": "Ironing",
+                        "responseOrder": 1,
+                        "imageUrl": "https://assets.servishero.io/app/direct-icons/ironing.png",
+                        "question": 5
+                    },
+                    {
+                        "id": 16,
+                        "active": true,
+                        "responseText": "Folding Clothes",
+                        "responseValue": "Folding Clothes",
+                        "responseOrder": 2,
+                        "imageUrl": "https://assets.servishero.io/app/direct-icons/folding_clothes.png",
+                        "question": 5
+                    },
+                    {
+                        "id": 17,
+                        "active": true,
+                        "responseText": "Laundry",
+                        "responseValue": "Laundry",
+                        "responseOrder": 3,
+                        "imageUrl": "https://assets.servishero.io/app/direct-icons/laundry.png",
+                        "question": 5
+                    },
+                    {
+                        "id": 18,
+                        "active": true,
+                        "responseText": "Ceiling Fan Cleaning",
+                        "responseValue": "Ceiling Fan Cleaning",
+                        "responseOrder": 4,
+                        "imageUrl": "https://assets.servishero.io/app/direct-icons/ceiling_fan_cleaning.png",
+                        "question": 5
+                    }
+                ],
+                "service": 400000,
+                "questionType": {
+                    "id": 5,
+                    "type": "multi icon select"
+                },
+                "id": 5,
+                "active": true,
+                "questionText": "Special Instructions (Time Permitting)",
+                "questionSubText": "If you need additional services to be completed, please let us know",
+                "questionSubsetId": 3,
+                "questionOrder": 2,
+                "salesItemTypeId": null,
+                "numOfServiceUnit": null,
+                "serviceAttributeId": null,
+                "isTooltip": false,
+                "isOptional": true,
+                "tooltipText": "",
+                "tooltipImageUrl": "",
+                "durationPerUnit": null
+            },
+            {
+                "responses": [],
+                "service": 400000,
+                "questionType": {
+                    "id": 3,
+                    "type": "free text"
+                },
+                "id": 6,
+                "active": true,
+                "questionText": "Additional details",
+                "questionSubText": "If the above questions aren't enough to accurately describe your job request, add a text description below",
+                "questionSubsetId": 3,
+                "questionOrder": 3,
+                "salesItemTypeId": null,
+                "numOfServiceUnit": null,
+                "serviceAttributeId": null,
+                "isTooltip": false,
+                "isOptional": true,
+                "tooltipText": "",
+                "tooltipImageUrl": "",
+                "durationPerUnit": null
+            }
+        ]
+    }
+}

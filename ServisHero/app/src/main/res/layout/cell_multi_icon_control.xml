@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/x4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="@dimen/x4"
+            android:text="Testing"
+            android:lines="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/x6" />
+
+        <TextView
+            android:id="@+id/subTitleTextView"
+            android:layout_margin="@dimen/x4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Testinsdflkjsaf ljsadf lkjsaf lksajf lsakjdf lksajfklsfjaslkf jsalkdfj aslkdfj lsakdfj lsakfj lsakdjf lksajdfsld fjsafg"
+            android:maxLines="2"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/x6" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/multipleSelectionRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

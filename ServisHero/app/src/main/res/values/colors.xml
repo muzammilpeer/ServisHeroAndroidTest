@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#feca31</color>
+    <color name="gray">#757374</color>
+    <color name="FIELD_BORDER_DARK_GRAY">#BBBBBB</color>
+    <color name="white">#FFFFFF</color>
+    <!--<color name="survey_banner_color">#588CC6</color>-->
+    <color name="colorEditTextBackground">#f0f0f0</color>
+    <color name="colorSubmitButton">#1478fb</color>
+    <color name="colorCircleButtonSelected">#feca31</color>
+    <color name="colorCircleButtonUnSelected">#ffffff</color>
+    <color name="colorCircleButtonBorder">#eeeeee</color>
+
+
+
+</resources>
